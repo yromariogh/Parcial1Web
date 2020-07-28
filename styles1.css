@@ -1,0 +1,51 @@
+body 
+{
+    background-color: #fff;
+    margin: 40px;
+}
+
+table 
+{
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+}
+
+th 
+{
+    font-size: 12px;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 3px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+
+td 
+{
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td 
+{
+    background: #d0dafd;
+    color: #339;
+}
+
+.editar 
+{
+    color: blue;
+    cursor: pointer;
+}
+
+#divFormulario
+{
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+    <script src="scripts.js"></script>
+    <title>Tabla</title>
+</head>
+
+<body>
+
+    <table>
+        <caption>Contenido nutricional por cada 100 g de alimento.</caption>
+        <thead>
+            <tr>
+                <th>Alimentos</th>
+                <th>Calorías (kCal)</th>
+                <th>Grasas (g)</th>
+                <th>Proteína (g)</th>
+                <th>Carbohidratos (g)</th>
+                <th>Ok</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Arándano</td>
+                <td>48</td>
+                <td>0.5</td>
+                <td>0.3</td>
+                <td>11.8</td>
+                <td>&#128522;</td>
+                <td>
+                    <span class="editar" onclick="editar(this)">Editar</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Plátano</td>
+                <td>80</td>
+                <td>0.2</td>
+                <td>1.1</td>
+                <td>24.7</td>
+                <td>&#128565;</td>
+                <td>
+                    <span class="editar" onclick="editar(this)">Editar</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cereza</td>
+                <td>46</td>
+                <td>0.8</td>
+                <td>0.4</td>
+                <td>14.6</td>
+                <td>&#128565;</td>
+                <td>
+                    <span class="editar" onclick="editar(this)">Editar</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Fresa</td>
+                <td>57</td>
+                <td>0.6</td>
+                <td>0.1</td>
+                <td>8.9</td>
+                <td>&#128522;</td>
+                <td>
+                    <span class="editar" onclick="editar(this)">Editar</span>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div id="divFormulario">
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
